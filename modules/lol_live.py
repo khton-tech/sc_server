@@ -29,7 +29,7 @@ from typing import Any, Iterable
 import httpx
 from pydantic import BaseModel, Field
 
-from .base import BaseModule
+from modules.base import BaseModule
 
 
 class _PlayerEntry(BaseModel):

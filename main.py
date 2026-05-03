@@ -18,13 +18,17 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from starlette.types import Scope
 
-from .device_manager import device_manager
-from .modules.manager import ModuleManager
-from .modules.lol_live import LoLLiveModule
-from .modules.clap_listen import ClapListenModule
+from device_manager import device_manager
+from modules.manager import ModuleManager
+from modules.lol_live import LoLLiveModule
+from modules.clap_listen import ClapListenModule
 
-# Path to Flutter web build output
+# Path to Flutter web build output.
+# When running standalone from /server, 'app' is usually not available.
 WEB_BUILD_DIR = Path(__file__).resolve().parent.parent / "app" / "build" / "web"
+if not WEB_BUILD_DIR.is_dir():
+    # Fallback/Development check
+    WEB_BUILD_DIR = Path(__file__).resolve().parent / "web_build"
 
 logging.basicConfig(
     level=logging.INFO,

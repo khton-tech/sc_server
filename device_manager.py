@@ -12,7 +12,7 @@ from typing import Any, Callable
 
 import tinytuya
 
-from .config import BulbConfig, BULBS
+from config import BulbConfig, BULBS
 
 logger = logging.getLogger("smart_connect.devices")
 

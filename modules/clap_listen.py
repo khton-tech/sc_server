@@ -23,7 +23,7 @@ from collections import deque
 from pathlib import Path
 from typing import Any
 
-from .base import BaseModule
+from modules.base import BaseModule
 
 logger = logging.getLogger("smart_connect.mod.clap_listen")
 

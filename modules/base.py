@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
     from fastapi import FastAPI
-    from ..device_manager import DeviceManager
+    from device_manager import DeviceManager
 
 
 class BaseModule(ABC):
