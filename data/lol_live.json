@@ -1,0 +1,55 @@
+{
+  "poll_interval": 1.5,
+  "flash_count": 3,
+  "flash_duration": 0.25,
+  "ready_on_ms": 700,
+  "ready_off_ms": 400,
+  "lcu_lockfile_path": null,
+  "colours": {
+    "kill": "005503e803e8",
+    "death": "000003e803e8",
+    "assist": "00b403e803e8",
+    "multikill": "010e03e803e8",
+    "low_hp": "00000bb803e8",
+    "level_up": "003c012c03e8",
+    "respawn": "003c006403e8",
+    "spree_3": "001e03e803e8",
+    "spree_4": "001203e803e8",
+    "spree_5": "010e03e803e8",
+    "spree_6": "011803e803e8",
+    "spree_7": "013203e803e8",
+    "spree_8": "003c012c03e8",
+    "first_blood": "000a03e803e8",
+    "first_brick": "010e03e803e8",
+    "ace": "010e03e803e8",
+    "dragon": "002303e803e8",
+    "baron": "011803e803e8",
+    "herald": "00dc03e803e8",
+    "turret_kill": "00aa03e803e8",
+    "turret_lost": "000003e80320",
+    "turret_inhib_kill": "010e03e803e8",
+    "turret_inhib_lost": "000003e80480",
+    "turret_nexus_kill": "003c03e803e8",
+    "turret_nexus_lost": "000003e803e8",
+    "inhib_kill": "00f003e803e8",
+    "inhib_lost": "000003e80258",
+    "ready_check": "00f003e803e8",
+    "game_start": "00b403e803e8",
+    "victory": "005503e803e8",
+    "defeat": "000003e803e8"
+  },
+  "players": [
+    {
+      "nick": "khton",
+      "bulbs": [
+        "bf9ba3adbada2b0ecbfsed",
+        "bf27ba39a18df21d98kwyl",
+        "bfab7e87b56980c251ngpw"
+      ]
+    },
+    {
+      "nick": "l1nksy",
+      "bulbs": []
+    }
+  ]
+}
