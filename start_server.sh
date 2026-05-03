@@ -15,4 +15,4 @@ fi
 
 # Run uvicorn. 
 # We use 'main:app' because we are already in the directory where main.py is.
-"$VENV_PYTHON" -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+"$VENV_PYTHON" -m uvicorn main:app --host 0.0.0.0 --port 1488 --reload
